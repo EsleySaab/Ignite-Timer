@@ -54,6 +54,10 @@ export const TaskInput = styled(BaseInput)`
   &::placeholder {
     padding: 2.2rem;
   }
+
+  &::-webkit-calendar-picker-indicator {
+    display: none !important;
+  }
 `
 
 export const MinutesAmountInput = styled(BaseInput)`

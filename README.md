@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+Ignite Timer React
+O Ignite Timer é um aplicativo desenvolvido durante o curso Ignite da Rocketseat, com o objetivo de criar uma aplicação funcional de Pomodoro. O projeto foi construído utilizando React e TypeScript, explorando conceitos avançados como reducers, Context API e componentização. A aplicação oferece controle total sobre os ciclos de trabalho, permitindo criar, interromper e visualizar ciclos em andamento ou concluídos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologias Usadas
+React: Biblioteca JavaScript para construção de interfaces de usuário modernas.
+Vite: Ferramenta de build e desenvolvimento ágil.
+TypeScript: Para tipagem estática e segurança no desenvolvimento.
+Styled-Components: Para estilização dinâmica e modularizada.
+React Router DOM: Gerenciamento de rotas e navegação.
 
-Currently, two official plugins are available:
+⚙️ Funcionalidades
+Iniciar um novo ciclo: Crie um ciclo de trabalho configurando a tarefa e a duração.
+Interromper ciclo em andamento: Pausa o ciclo atual e registra no histórico.
+Visualizar ciclos em andamento: Acompanhe o progresso do ciclo ativo.
+Histórico de ciclos: Consulte todos os ciclos concluídos ou interrompidos.
+Responsividade total: Design adaptado para diferentes dispositivos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Objetivos do Projeto
+Praticar o uso de Context API e reducers para gerenciamento global de estado.
+Compreender e aplicar conceitos de imutabilidade do estado no React.
+Criar componentes reutilizáveis e aplicar boas práticas de desenvolvimento.
+Implementar rotas e navegação em uma aplicação React.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+🖼 Layout do Projeto
+<img src="./src/assets/layout.png" alt="Tela Inicial" >

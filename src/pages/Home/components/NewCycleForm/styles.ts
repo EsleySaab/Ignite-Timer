@@ -1,4 +1,4 @@
-import {styled} from "styled-components"
+import { styled } from "styled-components"
 
 export const FormContainer = styled.div`
   width: 100%;
@@ -10,6 +10,11 @@ export const FormContainer = styled.div`
   font-size: 1.125rem;
   font-weight: bold;
   flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    flex: 1;
+    width: 60%;
+  }
 `
 
 const BaseInput = styled.input`
@@ -41,6 +46,10 @@ export const TaskInput = styled(BaseInput)`
 
   &::-webkit-calendar-picker-indicator {
     display: none !important;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 4rem;
   }
 `
 

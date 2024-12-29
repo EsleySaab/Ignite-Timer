@@ -1,25 +1,42 @@
-Ignite Timer React
-O Ignite Timer é um aplicativo desenvolvido durante o curso Ignite da Rocketseat, com o objetivo de criar uma aplicação funcional de Pomodoro. O projeto foi construído utilizando React e TypeScript, explorando conceitos avançados como reducers, Context API e componentização. A aplicação oferece controle total sobre os ciclos de trabalho, permitindo criar, interromper e visualizar ciclos em andamento ou concluídos.
+# **Ignite Timer**
 
-🚀 Tecnologias Usadas
-React: Biblioteca JavaScript para construção de interfaces de usuário modernas.
-Vite: Ferramenta de build e desenvolvimento ágil.
-TypeScript: Para tipagem estática e segurança no desenvolvimento.
-Styled-Components: Para estilização dinâmica e modularizada.
-React Router DOM: Gerenciamento de rotas e navegação.
+Este projeto foi desenvolvido durante o curso **Ignite** da **Rocketseat**, com o objetivo de criar uma aplicação **Pomodoro** que permite iniciar, interromper ciclos e visualizar um histórico de ciclos. A aplicação é totalmente **responsiva**.
 
-⚙️ Funcionalidades
-Iniciar um novo ciclo: Crie um ciclo de trabalho configurando a tarefa e a duração.
-Interromper ciclo em andamento: Pausa o ciclo atual e registra no histórico.
-Visualizar ciclos em andamento: Acompanhe o progresso do ciclo ativo.
-Histórico de ciclos: Consulte todos os ciclos concluídos ou interrompidos.
-Responsividade total: Design adaptado para diferentes dispositivos.
+---
 
-🎯 Objetivos do Projeto
-Praticar o uso de Context API e reducers para gerenciamento global de estado.
-Compreender e aplicar conceitos de imutabilidade do estado no React.
-Criar componentes reutilizáveis e aplicar boas práticas de desenvolvimento.
-Implementar rotas e navegação em uma aplicação React.
+## 🚀 **Tecnologias Usadas**
 
-🖼 Layout do Projeto
-<img src="./src/assets/layout.png" alt="Tela Inicial" >
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Para garantir a tipagem e maior segurança no desenvolvimento.
+- **Styled-Components**: Biblioteca para estilização dinâmica e componetizada.
+- **Vite**: Ferramenta de build e desenvolvimento rápido.
+
+---
+
+## ⚙️ **Funcionalidades**
+
+- **Iniciar um novo ciclo**: Configure o tempo e inicie o contador.
+- **Interromper ciclos em andamento**: Permite pausar ciclos ativos antes de serem concluídos.
+- **Histórico de ciclos**: Visualize ciclos concluídos, interrompidos e em andamento.
+- **Responsividade completa**: Layout ajustado para diferentes tamanhos de tela.
+
+---
+
+## 🎯 **Objetivos**
+
+- Praticar o uso de **estados** e **reducers** no React.
+- Trabalhar com **context API** para gerenciamento global de estados.
+- Aplicar **hooks personalizados** para lógica reutilizável.
+- Explorar **Styled-Components** para estilização dinâmica.
+
+---
+
+## 🖼 **Layout do Projeto**
+
+### Tela Inicial:
+
+![Tela Inicial](./src/assets/layout.png)
+
+### Histórico de Ciclos:
+
+![Histórico de Ciclos](./src/assets/histórico.png)
